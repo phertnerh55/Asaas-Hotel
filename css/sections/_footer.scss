@@ -1,0 +1,16 @@
+@use "../utilities/mixins"as *;
+@use "../utilities/variables"as *;
+.footer{
+    background-color: rgb(88, 204, 243);
+    padding: 2em 0;
+    &__container{
+        @include flex(space-around,center);
+
+    }
+    margin-top: 2em;
+    text-align: center;
+    h4{
+        font-size: 2rem;
+    }
+
+}

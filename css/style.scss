@@ -1,3 +1,20 @@
 @use "../css/utilities/base";
 @use "../css/utilities/mixins";
 @use "../css/utilities/variables";
+@use "../css/sections/nav";
+@use "../css/sections/hero";
+@use "../css/sections/about";
+@use "../css/sections/room";
+@use "../css/sections/gallery";
+@use "../css/sections/reviews";
+@use"../css/sections/book";
+@use"../css/sections/footer";
+@use "../css/sections/login";
+@use"../css/sections/register";
+@use "../css/sections/add";
+
+
+
+//   @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;700&display=swap');
+  // @import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@400;700&display=swap');

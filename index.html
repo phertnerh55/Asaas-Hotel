@@ -4,120 +4,542 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <title>Asaas Hotel</title>
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="nav">
         <div class="container">
-          <div class="nav__left">
-            <p>LOGO</p>
-            <p>Assas Hotel</p>
+          <div class="nav__container">
+            <div class="nav__left">
+            
+            <img src="images/ASAAS.png" alt="" width="80vw">
+            </div>
+            <div class="nav__center">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#rooms">Rooms</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#review">Reviews</a></li>
+                <button><a href="#book">Book Now</a></button>
+              </ul>
+            </div>
+            <div class="nav__right">
+              <ul>
+                <li><a href="login.html">Log in</a></li>
+                <li><a href="register.html">Register</a></li>
+              </ul>
+            </div>
           </div>
-          <div class="nav__right">
+        </div>
+      </nav>
+      <section class="hero">
+        <div class="hero__top">
+          <h1>ASAAS HOTEL NAIROBI</h1>
+          <p>Comfort & Convenience at ...the Only One!</p>
+        </div>
+        <div class="container">
+          <div class="hero__container">
+            <div class="hero__box">
+              <h5>Check In</h5>
+              <input type="date" />
+            </div>
+            <div class="hero__box">
+              <h5>Check Out</h5>
+              <input type="date" />
+            </div>
+            <div class="hero__box">
+              <h5>Adults</h5>
+              <select name="" id="">
+                <option value="">1 Adult</option>
+                <option value="">2 Adults</option>
+                <option value="">3 Adults</option>
+                <option value="">4 Adults</option>
+                <option value="">5 Adults</option>
+                <option value="">6 Adults</option>
+              </select>
+            </div>
+            <div class="hero__box">
+              <h5>Child</h5>
+              <select name="" id="">
+                <option value="">0 Child</option>
+                <option value="">1 Child</option>
+                <option value="">2 Childs</option>
+                <option value="">3 Childs</option>
+                <option value="">4 Childs</option>
+                <option value="">5 Childs</option>
+                <option value="">6 Childs</option>
+              </select>
+            </div>
+            <div class="hero__box">
+              <h5>Rooms</h5>
+              <select name="" id="">
+                <option value="">1 Room</option>
+                <option value="">2 Rooms</option>
+                <option value="">3 Rooms</option>
+                <option value="">4 Rooms</option>
+                <option value="">5 Rooms</option>
+                <option value="">6 Rooms</option>
+              </select>
+            </div>
+          </div>
+          <button class="btn">Check Availability</button>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section class="about">
+        <div class="container">
+          <div class="about__content">
+            <h2 id="about">About Us</h2>
+            <p>
+              Welcome to Asaas, a contemporary style hotel that provides all the
+              comfort, convenience and efficiency to the discerning traveler.
+              Ideally located along Mombasa road in Nairobi the capital city of
+              Kenya, Asaas Hotel Nairobi features 167 well-appointed rooms, five
+              meeting & conference rooms, restaurant & bar, gym, swimming pool,
+              gift shop, wellness center among other top facilities offering the
+              best choice venue for your Business and Leisure stay.
+            </p>
+          </div>
+          <div class="about__card">
+            <div class="about__img">
+              <img src="images/about.jpg" alt="" />
+            </div>
+            <div class="about__values">
+              <div class="mision">
+                <h4>Mision</h4>
+                <p>
+                  To acquire the loyalty of our clients by exceeding their
+                  expectations in offering comfort, convenience and efficient
+                  services.
+                </p>
+              </div>
+              <div class="vision">
+                <h4>Vision</h4>
+                <p>
+                  To be the preferred hotel recognized for providing world class
+                  affordable hospitality.
+                </p>
+              </div>
+              <div class="core">
+                <h4>Core Values</h4>
+                <p>
+                  Exceptional service, Integrity, Respect, Teamwork & Passion
+                  and Continuous Improvement
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="about__card">
+            <div class="about__img">
+              <img src="images/staff-1.jpg" alt="" />
+            </div>
+            <div class="about__right">
+              <h3>Best Staff</h3>
+              <p>
+                Our staff prevent security and safety issues before they happen,
+                and when an issue does arise, to take appropriate measures to
+                ensure guest safety. All along, maintaining the delicate balance
+                between providing security while not interfering with the
+                enjoyment of the guest's stay.
+              </p>
+            </div>
+          </div>
+          <div class="about__card">
+            <div class="about__right">
+              <h3>Best Food</h3>
+              <p>
+                Asaas Hotel has stirred up the local culinary scene with two
+                restaurants, two bars and a 24-hr coffee shop that cater to the
+                needs of our diverse clientele. Each dining experience provides
+                our guests with a taste of a broad selection of international
+                and local cuisine.
+              </p>
+            </div>
+            <div class="about__img">
+              <img src="images/food.jpg" alt="" />
+            </div>
+          </div>
+          <div class="about__card">
+            <div class="about__img">
+              <img src="images/pool.jpg" alt="" />
+            </div>
+            <div class="about__right">
+              <h3>Swimming Pool</h3>
+              <p>
+                Swimming is a great form of exercise that involves all the
+                body's main muscles, and it provides many physical and mental
+                health benefits. Our swimming pools provide access to a form of
+                exercise that's considered a valuable life skill, and they bring
+                people together to learn and get fit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="room">
+        <div class="container">
+          <h2 id="rooms">OUR ROOMS</h2>
+          <div class="room__container">
+            <div class="room__card">
+              <div class="room__left">
+                <img src="images/single.jpg" alt="" />
+              </div>
+              <div class="room__right">
+                <h4>Single Room</h4>
+                <p>ksh 3000 per night</p>
+                <h5>Features</h5>
+                <ul>
+                  <li>1 Room</li>
+                  <li>1 Bathroom</li>
+                  <li>1 Balcon</li>
+                  <li>2 Sofa</li>
+                </ul>
+                <h5>Facilities</h5>
+                <ul>
+                  <li>Wifi</li>
+                  <li>Television</li>
+                  <li>Ac</li>
+                  <li>Room heater</li>
+                </ul>
+                <button class="btn">Book Now</button>
+              </div>
+            </div>
+            <div class="room__card">
+              <div class="room__left">
+                <img src="images/double.jpg" alt="" />
+              </div>
+              <div class="room__right">
+                <h4>Double Room</h4>
+                <p>ksh 4500 per night</p>
+                <h5>Features</h5>
+                <ul>
+                  <li>1 Room</li>
+                  <li>2 Bathrooms</li>
+                  <li>1 Balcon</li>
+                  <li>4 Sofas</li>
+                </ul>
+                <h5>Facilities</h5>
+                <ul>
+                  <li>Wifi</li>
+                  <li>Television</li>
+                  <li>Ac</li>
+                  <li>Room heater</li>
+                </ul>
+                <button class="btn">Book Now</button>
+              </div>
+            </div>
+            <div class="room__card">
+              <div class="room__left">
+                <img src="images/deluxe.jpg" alt="" />
+              </div>
+              <div class="room__right">
+                <h4>Deluxe Room</h4>
+                <p>ksh 5500 per night</p>
+                <h5>Features</h5>
+                <ul>
+                  <li>2 Rooms</li>
+                  <li>2 Bathrooms</li>
+                  <li>2 Balcons</li>
+                  <li>3 Sofas</li>
+                </ul>
+                <h5>Facilities</h5>
+                <ul>
+                  <li>Wifi</li>
+                  <li>Television</li>
+                  <li>Ac</li>
+                  <li>Room heater</li>
+                </ul>
+                <button class="btn">Book Now</button>
+              </div>
+            </div>
+            <div class="room__card">
+              <div class="room__left">
+                <img src="images/family.jpg" alt="" />
+              </div>
+              <div class="room__right">
+                <h4>Family Room</h4>
+                <p>ksh. 8000 per night</p>
+                <h5>Features</h5>
+                <ul>
+                  <li>5 Rooms</li>
+                  <li>3 Bathrooms</li>
+                  <li>3 Balcons</li>
+                  <li>6 Sofas</li>
+                </ul>
+                <h5>Facilities</h5>
+                <ul>
+                  <li>Wifi</li>
+                  <li>Television</li>
+                  <li>Ac</li>
+                  <li>Room heater</li>
+                </ul>
+                <button class="btn">Book Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+     
+      <section class="gallery">
+        <div class="container">
+          <h2 id="gallery"> OUR GALLERY</h2>
+          <div class="gallery__container">
+            <div class="img"><img src="images/gallery-1.jpg" alt="" /></div>
+            <div class="img"><img src="images/gallery-2.jpg" alt="" /></div>
+            <div class="img"><img src="images/double-2.jpg" alt="" /></div>
+            <div class="img"><img src="images/gallery-4.jpg" alt="" /></div>
+            <div class="img"><img src="images/gallery-5.jpg" alt="" /></div>
+            <div class="img"><img src="images/gallery -7.jpg" alt="" /></div>
+            <!-- <div class="img"><img src="images/gallery-7.jpg" alt="" /></div> -->
+            <!-- <div class="img"><img src="images/gallery.jpg" alt="" /></div> -->
+            
+          </div>
+          <button class="btn">More</button>
+        </div>
+      </section>
+      <section class="client">
+        <div class="container">
+          <div class="client__container">
+            <div class="client__review">
+              <h3 id="review" >CLIENTS REVIEW</h3>
+              <p><i class="fa-solid fa-quote-right"></i></p>
+              <p>
+                Stayed at Asaas Hotel with 3 kids aged 9,6 and 3. The staff were
+                very friendly and always willing to help. Comfortable beds.
+                Fiston at the swimming pool helped my daughter better her
+                swimming and even baby sat the 6 and 3 year olds through the
+                children play area and the hotel beach. When my 3 year old son
+                showed signs of illness, all staff were genuinely concerned and
+                the hotel nurse quickly helped with painkillers and additional
+                advice. Overall, a great stay, we had to extend by an extra
+                night. Denyse, Aphrodice, Annette, Fidele, Henriette and
+                Maridadi were all helpful during our stay. Herman, the GM was
+                also always checking on us and resolving any issues. We will
+                definitely be back.
+              </p>
+             <div class="img"> <img src="images/review-4.avif" alt="" />
+              <p>John Doe</p>
+            </div>
+            </div>
+            <div class="client__review">
+              <h3>CLIENTS REVIEW</h3>
+              <p><i class="fa-solid fa-quote-right" ></i></p>
+              <p>
+                We were impressed by the safety and protocols in place at this
+                property.We found the staff to be most helpful - , a slightly
+                later check out time, assistance with luggage, etc.Our room was
+                a nice size with a balcony that we enjoyed that overlooked the
+                pool. The furnishings were in good shape and the room was clean.
+                Bathroom was good. The pool was lovely - with a small children's
+                pool as well.Would recommend as a very nice spot for relaxing
+                and enjoying the surrounding area.
+              </p>
+             <div class="img"> <img src="images/review-3.avif" alt="" />
+              <p>Amina Hassan</p>
+            </div>
+            </div>
+            <div class="client__review">
+              <h3>CLIENTS REVIEW</h3>
+              <p><i class="fa-solid fa-quote-right"></i></p>
+              <p>
+                We’ve spend 3 days at Asaas while the city was in lockdown.
+                Everybody at Asaas wants to give you a good time. The food is
+                great (the chef is there everyday to make suee) and the guys at
+                the pool and in the restaurant are more then friendly!
+              </p>
+              <div class="img"><img src="images/review-1.avif" alt="" />
+              <p>Mediator.I</p>
+              </div>
+            </div>
+            <div class="client__review" >
+              <h3>CLIENTS REVIEW</h3>
+              <p><i class="fa-solid fa-quote-right"></i></p>
+              <p>
+                The staff at Asaas Hotel are well organised and welcoming! We
+                really loved the food and service. We will come back soon before
+                2023 ends....thanks to Management and staff team for taking care
+                of us. Cheers
+              </p>
+           <div class="img">   <img src="images/review-2.avif" alt="" />
+          <p>Juma James </p>
+          </div>
+            </div>
+            <div class="client__review">
+              <h3>CLIENTS REVIEW</h3>
+              <p><i class="fa-solid fa-quote-right"></i></p>
+              <p>
+                A beautiful property! Some rooms overlook the garden others the
+                pool and the lake. During the weekend Friday and Saturday nights
+                it can be very noisy in the rooms overlooking the pool because
+                there is a band and there are beach parties. The staff are very
+                friendly and the room quite clean. The meals are simple and
+                delicious.
+              </p>
+              <div class="img"><img src="images/review-5.avif" alt="" />
+              <p>Taib Ismail</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- <section class="contact">
+        <div class="container">
+          <h3>Contact Us</h3>
+          <form action="" method="post">
+            <div class="input__box">
+              <label for="name">Full Name</label>
+              <input type="text" placeholder="Enter your full name" required />
+            </div>
+            <div class="input__box">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                placeholder="Enter your valid email"
+                required
+              />
+            </div>
+            <div class="input__box">
+              <label for="number">Phone Number</label>
+              <input
+                type="number"
+                placeholder="Enter your phone number"
+                required
+              />
+            </div>
+            <div class="input__box">
+              <label for="subject">Subject</label>
+              <input type="text" />
+            </div>
+            <div class="input__box">
+              <p>Message</p>
+              <p>
+                <textarea
+                  name="message"
+                  id=""
+                  cols="20"
+                  rows="10"
+                  placeholder="Enter Message "
+                ></textarea>
+              </p>
+            </div>
+          </form>
+        </div>
+      </section> -->
+      <section class="book">
+        <div class="container">
+          <div class="book__container">
+          <h2 id="book">BOOK NOW</h2>
+          <form action="">      
+                <div class="book__input">
+            <div class="box">
+              <label for="name">Full Name</label>
+              <input type="text" placeholder="Enter your full name" required />
+            </div>
+            <div class="box">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                placeholder="Enter your valid email"
+                required
+              />
+            </div>
+            <div class="box">
+              <h5>Check In</h5>
+              <input type="date" />
+            </div>
+            <div class="box">
+              <h5>Check Out</h5>
+              <input type="date" />
+            </div>
+            <div class="box">
+              <h5>Adults</h5>
+              <select name="" id="">
+                <option value="">1 Adult</option>
+                <option value="">2 Adults</option>
+                <option value="">3 Adults</option>
+                <option value="">4 Adults</option>
+                <option value="">5 Adults</option>
+                <option value="">6 Adults</option>
+              </select>
+            </div>
+            <div class="box">
+              <h5>Child</h5>
+              <select name="" id="">
+                <option value="">0 Child</option>
+                <option value="">1 Child</option>
+                <option value="">2 Childs</option>
+                <option value="">3 Childs</option>
+                <option value="">4 Childs</option>
+                <option value="">5 Childs</option>
+                <option value="">6 Childs</option>
+              </select>
+            </div>
+            <div class="box" >
+              <h5>Rooms</h5>
+              <select name="" id="">
+                <option value="">1 Room</option>
+                <option value="">2 Rooms</option>
+                <option value="">3 Rooms</option>
+                <option value="">4 Rooms</option>
+                <option value="">5 Rooms</option>
+                <option value="">6 Rooms</option>
+              </select>
+            </div>
+            <div class="box">
+              <label>Room Type </label>
+              <select name="" id="">
+                <option value="">Single</option>
+                <option value="">Double</option>
+                <option value="">Deluxe</option>
+                <option value="">Family</option>
+              </select>
+            </div>
+           
+          </div>
+          <input type="submit" value="Check Availability" class="btn">
+        </form>
+
+        </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__container">
+          <div>
+            <h4>Call us</h4>
+            <p><i class="fa-solid fa-phone"></i> +254769661795</p>
+            <p><i class="fa-solid fa-phone"></i> +254728812174</p>
+          </div>
+          <div>
+            <h4>Quick links</h4>
             <ul>
               <li><a href="">Home</a></li>
               <li><a href="">About</a></li>
               <li><a href="">Rooms</a></li>
               <li><a href="">Gallery</a></li>
-              <li><a href="">Reviews</a></li>
-              <button>Book Now</button>
             </ul>
           </div>
-        </div>
-      </nav>
-      <section class="hero">
-        <div class="container">
           <div>
-            <h1>HAPPY AND COMFORTABLE PLACE TO LIVE</h1>
+            <h4>Follow Us</h4>
+            <p><i class="fa-brands fa-facebook"></i></p>
+            <p><i class="fa-brands fa-instagram"></i></p>
+            <p><i class="fa-brands fa-twitter"></i></p>
+            <p><i class="fa-brands fa-linkedin"></i></p>
           </div>
-          <div>
-            <div>
-              <h5>Check In</h5>
-            </div>
-            <div>
-              <h5>Check Out</h5>
-            </div>
-            <div>
-              <h5>Adults</h5>
-              <input type="number" min="1" />
-            </div>
-            <div>
-              <h5>Children</h5>
-              <input type="number" min="1" />
-            </div>
-            <div>
-              <h5>Rooms</h5>
-              <input type="number" min="1" max="5" />
-            </div>
-          </div>
-          <button>Check Availability</button>
-        </div>
-      </section>
-    </header>
-    <main>
-      <section>
-        <div class="container">
-          <div>
-            <div>background image</div>
-            <div>
-              <h2>About Us</h2>
-              <p>About us content</p>
-            </div>
-          </div>
-          <div>
-            <div>image</div>
-            <div>Best Staff</div>
-          </div>
-          <div>
-            <div>Best Food</div>
-            <div>image</div>
-
-          </div>
-          <div>
-            <div>image</div>
-            <div>Swimming Pool</div>
-          </div>
-        </div>
-      </section>
-      <section class="rooms">
-        <div class="container">
-          <div class="rooms__container">
-            <h2>Rooms</h2>
-            <div class="room__1"></div>
-            <div class="room__2"></div>
-            <div class="room__3"></div>
-
-          </div>
-        </div>
-      </section>
-      <section class="gallery">
-
-      </section>
-      <section class="client-review"></section>
-      <section class="contact">
-        <div class="container">
-          <h5>Contact Us</h5>
-          <form action="">
-            <p>Name</p>
-            <input type="text">
-          </form>
-        </div>
-      </section>
-      <section class="book">
-        <div class="container">
-          <h2>Book Now</h2>
-        </div>
-
-      </section>
-    </main>
-    <footer>
-      <div class="container">
-        <div class="footer__container">
-          <div></div>
-          <div></div>
-          <div></div>
         </div>
       </div>
     </footer>

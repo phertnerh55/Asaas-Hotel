@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add </title>
+  </head>
+  <body>
+    <section class="add">
+      <div class="container">
+        <div class="add__box">
+          <label>Room Type</label>
+          <select name="" id="type">
+            <option value="Single Room">Single Room</option>
+            <option value="Double Room">Double Room</option>
+            <option value="Delux Room">Deluxe Room</option>
+            <option value="Family">Family</option>
+          </select>
+        </div>
+        <div class="add__box">
+          <label>Room Price</label>
+          <select name="" id="price">
+            <option value="3000">Ksh3000 per night</option>
+            <option value="4500"> Ksh4500 per night</option>
+            <option value="5500">Ksh5500 per night</option>
+            <option value="8000">Ksh8000 per night</option>
+          </select>
+        </div>
+        <div class="add__box">
+          <label>Features</label>
+          <select name="" id="features" multiple>
+            <option value="Bathroom">Bathroom</option>
+            <option value="Balcon">Balcon</option>
+            <option value="Sofa">sofa</option>
+            <option value="room">No of rooms</option>
+          </select>
+        </div>
+        <div  class="add__box">
+          <label>Facilities</label>
+          <select name="" id="facilities" multiple>
+            <option value="WiFi">WiFi</option>
+            <option value="AC">AC</option>
+            <option value="Television">Television</option>
+            <option value="Room Heater">Room Heater</option>
+          </select>
+        </div>
+        <div>
+            <input id="file" type="file" >
+        </div>
+        <button id="btn" class="btn">Add Room</button>
+        <div id="message"></div>
+      </div>
+    </section>
+    <script src="js/add.js"></script>
+  </body>
+</html>

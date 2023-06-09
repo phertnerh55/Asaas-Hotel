@@ -1,0 +1,80 @@
+@use "../utilities/mixins"as *;
+@use "../utilities/variables" as *;
+
+.about{
+    &__content{
+        margin: 3em 0;
+        text-align: center;
+        
+        h2{
+            color: $dark-blue;
+            font-size: 3rem;
+        }
+        p{
+            font-size: 1.5rem;
+        }
+    }
+  
+    &__values{
+        background-color:$white;
+        height: 70vh;
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+        box-shadow: 0px 0px 3px $black;
+        align-items: center;
+        
+        
+    }
+    .mision{
+        margin-top: 10em ;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    .vision{
+        margin: 3em 1em;
+    }
+    .core{
+        margin: 3em 1em;
+    }
+    h4{
+        color: $blue;
+    }
+    &__card{
+        
+        @include flex(flex-start,center);
+        
+        margin:1em 0;
+          h3{
+        color:$blue;
+        font-size: 1.5rem;
+    }
+    p{
+        line-height: 2;
+    }
+
+
+    
+    }
+    &__right{
+        flex:1;
+        text-align:center;
+        margin: 0 3em;
+
+    }
+    &__img{
+        // background-color:bisque;
+        flex:1;
+        height: 600px;
+        width: 200px;
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            object-position: center center;
+        }
+    }
+
+
+}

@@ -1,0 +1,61 @@
+@use "../utilities/mixins" as *;
+@use "../utilities/variables" as *;
+.nav{
+    background-color: $white;
+    padding: 1em;
+ &__container{
+    @include flex(space-between, center);
+ }  
+ &__center{
+ul{
+    @include flex(center, center);
+    gap:1em;
+    li{
+        padding: 1.5em;
+        a{
+            color: $black;
+            &:hover{
+                color:$dark-blue;
+            }
+        }
+    }
+    
+}
+button{
+   background-color: $blue; 
+   color :$white;
+   padding: 1em 2em;
+      
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+      outline: none;
+      border: none; 
+      &:hover{
+        background-color: $light-blue;
+      }  
+}
+ } 
+ &__right{
+    ul{
+        @include flex(center, center);
+        gap:1em;
+        li{
+            padding: 1.5em;
+            a{
+                color: $black;
+                &:hover{
+                    color:$dark-blue;
+                }
+            }
+        }
+
+    }
+
+ }
+ &__left{
+    p{
+        font-size: 1rem;
+    }
+ }
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+  </head>
+  <body>
+    <section class="register">
+      <div class="container">
+        <div class="register__container">
+          <div class="user">
+            <!-- <i class="fa-solid fa-circle-user"></i> -->
+            <h2>User Registration</h2>
+          </div>
+          <div><i class="fa-solid fa-xmark"></i></div>
+        </div>
+        <p>
+          Note your details must match your ID(passport, driving licence, etc)
+          that will be required during check in.
+        </p>
+        <p id="message"></p>
+        <form action="">
+          <div class="register__name">
+            <p>Full Name</p>
+            <input
+              class="registration"
+              type="text"
+              placeholder="Enter your  full name"
+              required
+            />
+          </div>
+          <div class="register__email">
+            <p>Email</p>
+            <input
+              class="registration"
+              type="email"
+              placeholder="Enter your valid email"
+              required
+            />
+          </div>
+          <div class="register__number">
+            <p>Phone Number</p>
+            <input
+              class="registration"
+              type="number"
+              placeholder="Enter your phone number"
+              required
+            />
+          </div>
+          <div class="register__pin">
+            <p>Pin Code</p>
+            <input
+              class="registration"
+              type="number"
+              placeholder="Enter your pin code"
+              required
+            />
+          </div>
+          <div class="register__password">
+            <p>Password</p>
+            <input
+              class="registration"
+              type="password"
+              placeholder="Enter your password"
+              name="password"
+            />
+            <div class="register__password">
+              <p>Confirm password</p>
+              <input
+                class="registration"
+                type="password"
+                placeholder="Confirm your password"
+                name="password"
+              />
+            </div>
+          </div>
+          <button
+            id="register"
+            class="btn"
+          >
+            <a href="">Register</a>
+          </button>
+        </form>
+      </div>
+    </section>
+    <script src="js/register.js"></script>
+  </body>
+</html>

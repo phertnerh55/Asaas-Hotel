@@ -1,0 +1,64 @@
+@use "../utilities/mixins"as*;
+@use "../utilities/variables"as *;
+.login{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url("../../images/background\ hero.jpg") no-repeat center center/cover;
+  width: 100%;
+  height:900px;
+  
+
+    border-radius: 5px ;
+    border: 1px solid gray;
+ .user{
+  h2{
+    color: $white;
+    margin: 0 auto;
+    
+  }
+ }
+   
+    &__container{
+        @include flex(space-between,center);
+        // gap: 10em;
+    }
+
+    form{
+        
+            border-radius: 5px;
+            background-color: white;
+            margin-top: 10em;
+            margin-left: 25em;
+            width: 50%;
+            padding: 1em;
+            box-shadow: 0px 0px 3px gray;
+    }
+ &__email input,
+  &__password input {
+    outline: none;
+    padding: 1em 2em;
+    font-size: 1rem;
+    border: none;
+    box-shadow: 0px 0px 3px black;
+
+    background-color: transparent;
+    // color: $white;
+    margin-top: 1em;
+    // &::placeholder {
+    //   color: $white;
+    // }
+  }
+  button{
+    margin:2em 0;
+    a{
+
+    color: $white;
+  }
+
+  }
+}
+.error{
+  border:1px solid red !important;
+}
+.error-message{
+  color: red !important;
+}
