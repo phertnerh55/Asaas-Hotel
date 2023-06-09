@@ -43,7 +43,7 @@ if(localStorage.getItem("user")===null){
     localStorage.setItem("user", JSON.stringify(localStorageUser));
   }
 
-  location.pathname= "https://phertnerh55.github.io/Asaas-Hotel/login.html"
+  location.pathname= "/login.html"
   console.log(newUser)
 
 }

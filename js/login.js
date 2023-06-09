@@ -91,7 +91,7 @@ allUsers.filter(user=>{
     
     
 });
-location.pathname= "https://phertnerh55.github.io/Asaas-Hotel/index.html"
+location.pathname= "/"
 
 
 
