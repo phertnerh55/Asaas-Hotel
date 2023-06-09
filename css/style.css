@@ -293,16 +293,18 @@ h2 {
 
 .client__container {
   padding: 5em;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/review.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("https://phertnerh55.github.io/Asaas-Hotel/images/review.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1em;
 }
 .client__review {
   margin-bottom: 1em;
   text-align: center;
   color: #fff;
-  margin-right: 50em;
   line-height: 2em;
   padding: 3em;
   background-color: rgb(59, 147, 205);
@@ -384,7 +386,7 @@ h2 {
 }
 
 .login {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/background hero.jpg") no-repeat center center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://phertnerh55.github.io/Asaas-Hotel/images/background%20hero.jpg") no-repeat center center/cover;
   width: 100%;
   height: 900px;
   border-radius: 5px;

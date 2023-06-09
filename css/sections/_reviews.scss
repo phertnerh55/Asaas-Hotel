@@ -9,6 +9,9 @@
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1em;
         
     }
     &__review{
@@ -27,7 +30,6 @@
             text-align: center;
             font-size: 2rem;
         }
-        margin-right: 50em;
         line-height: 2em;
         
         padding: 3em;
