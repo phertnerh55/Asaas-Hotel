@@ -67,6 +67,7 @@ allUsers.filter(user=>{
 
 
         
+        location.replace("https://phertnerh55.github.io/Asaas-Hotel/index.html")
         
     } else{
         message.textContent = "Invalid Credentials";
@@ -91,7 +92,6 @@ allUsers.filter(user=>{
     
     
 });
-location.pathname= "/"
 
 
 
