@@ -1,8 +1,9 @@
 @use "../utilities/mixins" as *;
 @use "../utilities/variables" as *;
 .register {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url("../../images/background\ hero.jpg") no-repeat center center/cover;
+  // background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  // url("../../images/background\ hero.jpg") no-repeat center center/cover;
+  background-color: rgb(5, 138, 182);
   border-radius: 5px;
   border: 1px solid gray;
   width: 100%;
